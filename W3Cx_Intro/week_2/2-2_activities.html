@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>2.2 Activities</title>
+    </head>
+    <body>
+        <h1>Week 2.2 Activities</h1>
+        <hr>
+        <h3>Activity 1</h3>
+        <p><em>Find the list of supported attributes for the &lt;area&gt; tag.</em></p>
+        <p>In HTML5 the &lt;area&gt; tag has the following Attributes:</p>
+        <ul>
+            <li>alt</li>
+            <li>coords</li>
+            <li>download</li>
+            <li>href</li>
+            <li>hreflang</li>
+            <li>media</li>
+            <li>nohref</li>
+            <li>rel</li>
+            <li>shape</li>
+            <li>target</li>
+            <li>type</li>
+        </ul>
+        <p>The area tag also supports the global and event attributes.</p>
+        <p>&nbsp;</p>
+        <h3>Activity 2</h3>
+        <p><em>Create two paragraphs with the same 'id' and run your code in Intel XDK. You can view your output in a Chrome window. What happens? We know the value of the 'id' attribute must be unique, so why does it behave the way it does? Run your code through the W3C Markup Validator. Does it throw an error?</em></p>
+        <p id="a2">This first paragraph has an id of "a2".</p>
+        <p id="a2">This second paragraph also has an id of "a2".</p>
+        <p>The two paragraphs above will display in a browser without issue.  However HTML5 validators such as <a href="http://html5.validator.nu">http://html5.validator.nu</a> will report the following: "Error: Duplicate ID a2."</p>
+        <p>As no CSS or JavaScript is applied to the attribute there are no issues rendering.</p>
+        <p>&nbsp;</p>
+        <h3>Activity 3</h3>
+        <p><em>Does an attribute called 'src' exist? What is the purpose of this attribute and what are the elements it can be applied to?</em></p>
+        <p>The 'src' attribute is used in conjunction with tags such as &lt;audio&gt;, &lt;img&gt;, &lt;script&gt;, &amp; &lt;video&gt; (among others).</p>
+        <p>The required 'src' attribute specifies the absolute or relative URL of the item.</p>
+        <p>&nbsp;</p>
+        <h3>Activity 4</h3>
+        <p><em>Create an ordered list starting with the number 11. Then, reverse the list. Give it the following title: 'Activity List'.</em></p>
+        <ol start="11" title="Activity List">
+            <li>Eleven</li>
+            <li>Twelve</li>
+            <li>Thirteen</li>
+            <li>Fourteen</li>
+            <li>Fifteen</li>
+        </ol>
+        <ol reversed start="15" title="Reversed Activity List">
+            <li>Fifteen</li>
+            <li>Fourteen</li>
+            <li>Thirteen</li>
+            <li>Twelve</li>
+            <li>Eleven</li>
+        </ol>
+    </body>
+</html>
